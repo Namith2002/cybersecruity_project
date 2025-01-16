@@ -1,0 +1,1 @@
+h h f f r t g g f g t 6 7 5 "" ; / Key.shift Key.ctrl_l Key.caps_lock Key.caps_lock t g h Key.ctrl_l \x13 Key.ctrl_l \x16 Key.ctrl_l Key.esc 
