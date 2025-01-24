@@ -2,7 +2,7 @@ import threading
 import requests
 import time
 
-TARGET_URL = "http://127.0.0.1:8000"  
+TARGET_URL = "https://chatgpt.com/c/678f1eeb-f3a0-8005-8538-f950f36e70f5"  
 NUM_THREADS = 50  
 REQUESTS_PER_THREAD = 20  
 
