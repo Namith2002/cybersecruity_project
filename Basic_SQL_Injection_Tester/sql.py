@@ -40,3 +40,5 @@ if __name__ == "__main__":
     print("\nStarting SQL Injection tests...\n")
     test_sql_injection(target_url, param)
     print("\nTesting completed.")
+
+#http://testphp.vulnweb.com/artists.php
