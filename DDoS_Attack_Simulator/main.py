@@ -2,7 +2,7 @@ import threading
 import requests
 import time
 
-TARGET_URL = "https://chatgpt.com/c/678f1eeb-f3a0-8005-8538-f950f36e70f5"  
+TARGET_URL = "https://chatgpt.com/c/678f1eeb-f3a0-8005-8538-f950f36e70f5"
 NUM_THREADS = 50  
 REQUESTS_PER_THREAD = 20  
 
@@ -32,3 +32,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#https://chatgpt.com/c/679afdbe-c8c0-8005-a586-a91aa2128e1c
