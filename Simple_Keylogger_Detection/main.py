@@ -1,4 +1,4 @@
-from pynput import keyboard
+from pynput import keyboard #PIP INSTALL pynput
 
 # Log file to store only alphabets and numbers
 LOG_FILE = "key_log.txt"
