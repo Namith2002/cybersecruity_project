@@ -4,7 +4,7 @@ import sqlite3
 import os
 
 app = Flask(__name__)
-app.secret_key = '48DF8fPuZfmKjUQOO1APo6bTO7hJDTabTIbNMporS_Q=' 
+app.secret_key = 'wj46T_x6NDmqQWHnbGrgUDn1V-RC9RfT1rhUjjcnb_w=' 
 
 def init_db():
     conn = sqlite3.connect('users.db')
