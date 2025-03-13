@@ -1,0 +1,64 @@
+{
+    "scan_target": "http://localhost/users",
+    "scan_date": "2025-03-07 15:26:04",
+    "scan_duration": "28.54 seconds",
+    "urls_discovered": 1,
+    "vulnerabilities_found": 6,
+    "vulnerabilities": [
+        {
+            "type": "SSL/TLS",
+            "url": "https://localhost",
+            "description": "Connection refused",
+            "severity": "Info",
+            "timestamp": "2025-03-07 15:25:40"
+        },
+        {
+            "type": "Missing Security Header",
+            "url": "http://localhost/users",
+            "description": "HSTS not implemented",
+            "severity": "Low",
+            "timestamp": "2025-03-07 15:25:41"
+        },
+        {
+            "type": "Missing Security Header",
+            "url": "http://localhost/users",
+            "description": "CSP not implemented",
+            "severity": "Low",
+            "timestamp": "2025-03-07 15:25:41"
+        },
+        {
+            "type": "Missing Security Header",
+            "url": "http://localhost/users",
+            "description": "X-Content-Type-Options header missing",
+            "severity": "Low",
+            "timestamp": "2025-03-07 15:25:41"
+        },
+        {
+            "type": "Missing Security Header",
+            "url": "http://localhost/users",
+            "description": "X-Frame-Options header missing",
+            "severity": "Low",
+            "timestamp": "2025-03-07 15:25:41"
+        },
+        {
+            "type": "Missing Security Header",
+            "url": "http://localhost/users",
+            "description": "X-XSS-Protection header missing",
+            "severity": "Low",
+            "timestamp": "2025-03-07 15:25:41"
+        }
+    ],
+    "vulnerability_summary": {
+        "by_severity": {
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 5,
+            "Info": 1
+        },
+        "by_type": {
+            "SSL/TLS": 1,
+            "Missing Security Header": 5
+        }
+    }
+}
